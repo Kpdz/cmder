@@ -1,0 +1,28 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --color $*
+pwd=cd
+clear=cls
+l=ls -l
+
+gs=git status
+gc=git checkout $*
+gcb=git checkout -b $*
+gpl=git pull
+gp=git push $*
+gb=git branch $*
+gcm=git commit -m"$*"
+ga=git add $*
+gap=git add -p $*
+gf=git fetch
+gd=git diff -w $*
+gr=git reset head $*
+gst=git stash $*
+gsp=git stash pop
+gstl=git statsh list
+
+cmp-u=composer update
+cmp-i=composer install
+cmp-su=composer self-update
+cmp-cc=composer cache:clear
+

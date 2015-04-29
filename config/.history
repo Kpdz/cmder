@@ -1,0 +1,1000 @@
+git checkout feature-22-127-1
+php app\console doctrine:fixtures:load
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+clear
+git commit -m "Correct bug: Group splited get the end_date of the last date end trhough sub tasks "
+clear
+php app\console doctrine:fixtures:load
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+git commit -m "Correct bug: Get global size of sub task "
+clear
+git commit -m "Correct bug: Get global size of sub task "
+php app\console doctrine:fixtures:load
+clear
+git status
+git add -p "Reorganise array task value from the start date of each one"
+clear
+ls
+clear
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+clear
+git status
+clear
+git commit -m "Reorganise array task value from the start date of each one"
+git push origin feature-22-127-1
+grunt
+php app\console doctrine:fixtures:load
+clear
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-data-visualization\
+git checkout dev
+clear
+git pull
+clear
+git checkout feature-83
+git status
+git add-p .gitignore 
+git add -p app\phpunit.xml
+clear
+git status
+git add -p .gitignore 
+git status
+git add app\phpunit.xml
+git add -p app\phpunit.xml
+y
+git status
+clear
+git commit -m "Remove phpunit.xml from .gitignore"
+git push orgin feature-83
+git push orgine feature-83
+clear
+git status
+git push origin feature-83
+clear
+ssh root@\\ox-fr-px-dev01
+ssh root@ox-fr-px-dev01
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\
+cd module-scheduler\
+git pull
+git checkout -b feature-refactoring
+ant dev
+git reset --hard
+ant dev
+git status
+git add -p --all
+clear
+git commit -m "Correct issued reported by jenkins"
+git push origin feature-refactoring
+git status
+clear
+git status
+git add -p --all
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php 
+git commit -m "Remove "." from the end of route declaration"
+git push origin feature-refactoring
+exi
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\
+clear
+cd module-scheduler\
+git checkout dev
+git pull
+git branch -D feature-refactoring
+git branch --list
+git branch -D feature-83
+clear
+git checkout -b feature-optimization
+clear
+php app\console doctrine:fixtures:load
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataActionManager.php 
+clear
+git status
+git commit -m "Correct alertes reported by Jenkins"
+git push origin feature-optimization
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git commit -m "Correct simple comparaison to strict comparaison"
+git push origin feature-optimization
+git checkout dev
+git pull
+pear channel-discover pear.phing.info
+php pear channel-discover pear.phing.info
+php pear install [--alldeps] phing/phing
+pear
+php pear
+php go-pear.php
+ls
+phing
+php phing
+cd app\
+phing
+exit
+cd \Users\akouyate\Downloads\
+php go-pear.phar 
+pear
+cler
+clear
+pear channel-discover pear.phing.info
+pear install [--alldeps] phing/phing
+phing
+cd ../
+phing
+pear install phing/phing
+cd Downloads\
+pear install phing/phing
+cd \bin\
+phing
+ls
+cd ../
+lls
+ls
+cd bin\
+ls
+apt
+php go-pear.phar
+pear channel-discover pear.phing.info
+pear install phing/phing
+phing
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+cd app\
+phing
+pear
+clear
+pear
+clear
+cd ../
+ls
+phing
+git status
+cd app\
+phing
+cd ../
+phing
+gl
+clear
+phing
+ant
+phing
+phing dev-full
+phing dev
+ant dev
+phing dev
+git status
+clear
+git branch feature-blacklist-coverage
+git checkout feature-blacklist-coverage
+git status
+git add -p app\phpunit.xml
+clear
+ant dev
+clear
+git status
+git commit -m "Add blacklist for unable jenkins coverage"
+git push origin feature-blacklist-coverage
+git checkout dev
+git pull
+clear
+ant 
+ant dev
+phpunit --h
+phpunit --coverage-html .\
+phpunit --coverage-html 
+phpunit --coverage-html .\report 
+phpunit --coverage-html
+phpunit --coverage-html /
+phpunit --coverage-html 
+phpunit
+cd app\
+phpunit
+git reset --hard
+clear
+git checkout feature-coverage-configuration
+git checkout -b feature-coverage-configuration
+git status
+git add -p phpunit.xml
+clear
+git commit -m "Coverage code configuration"
+git push origin feature-coverage-configuration
+phpunit
+git status
+phpunit
+git status
+git add -p phpunit.xml
+clear
+git remase origin dev
+git rebase origin dev
+git status
+git commit -m "Code coverage configuration"
+git push origin feature-coverage-configuration
+phpunit
+arffff
+ant full-dev
+ant dev ull
+ant dev full
+ant dev-full
+phunit
+phpunit
+git checkout dev
+git reset --hard
+git checkout dev
+git pull
+phpunit
+cd \EasyPHP-DevServer-14.1VC11\
+cd data\localweb\projects\module-s
+cd data\localweb\projects\module-scheduler\
+clear
+git pull
+phpunit
+cd app\phpunit
+cd app\
+phpunit
+clear
+ssh root@ox-fr-px-dev01
+exit
+clear
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-s
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+clear
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+git pull
+git reset --hard
+clear
+git pull
+git branch --list
+git branch -D featire-blacklist-coverage
+git branch -D feature-blacklist-coverage
+git branch -D feature-coverage-configuration
+git branch -D feature-optimization
+clear
+git checkout -b feature-23-148
+php composer update
+clear
+composer update
+grunt
+php app\console cache:clear
+git status
+git add -p --all
+git commit -m "Add flapBoard template + DisplayController"
+clear
+composer self-update
+clear
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+grunt
+php app\console doctrine:cleaner
+php app\console doctrine:database:drop
+php app\console doctrine:database:drop --force
+php app\console doctrine:schema:update --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load 
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load 
+grunt
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load 
+php app\console doctrine:generate:entities StubBundle:Event
+php app\console doctrine:generate:entities StubTestBundle:Event
+git status
+git add -p --all
+y
+git status
+git add -p src\Stub\Bundle\TestBundle\Entity\Event
+clear
+git status
+git add -p --all
+clear
+git commit -m "Add enable attribute to envent entity"
+grunt
+git status
+grunt
+git status
+git add -p --all
+Add arrow element to toggle event
+git status
+git commit -m "Add arrow element to toggle event"
+git push origin feature-23-183
+grunt
+git add -p --all
+clear
+git commit -m "Align action to the left in flap board"
+git push origin feature-23-183
+clear
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\Services\DataProviderTest.php
+git commit -m "Correct mistake triggered by previous refacto in DataProvidertest"
+git push origin feature-23-183
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\
+cd module-scheduler\
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+clear
+php app\console doctrine:fixtures:load
+clea
+clear
+php app\console doctrine:fixtures:load
+clear
+php app\console doctrine:fixtures:load
+git status
+git add -p --alll
+git add -p --all
+clear
+git commit -m "Refacto LoadDataTest Fixtures"
+git push origin feature-23-183
+php app\console doctrine:fixtures:load
+git add -p --all
+git commit -m "Set data declaration to static variable"
+git push origin feature-23-183
+git checkout dev
+git reset --hard
+git checkout dev
+git pull
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+clear
+git status
+composer update
+bower
+bower install
+grunt
+git status
+git add -p --all
+clear
+git commit -m "Add draggable action on individual action"
+clear
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+clear
+git status
+git commit -m "Add droppable jquery ui evnt"
+gl
+clear
+php composer update
+composer update
+php app\console doctrine:generate:entity
+php app\console doctrine:generate:entities StubTestBundle:Item
+php app\console doctrine:generate:entities StubTestBundle:Event
+php app\console doctrine:database:drop
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load
+php app\console doctrine:generate:entities StubTestBundle:Event
+php app\console doctrine:generate:entities StubTestBundle:Item
+php app\console doctrine:fixtures:load
+git status
+git add -p app\SymfonyRequirements.php 
+y
+git status
+git add src\Oxand\Bundle\SchedulerBundle\Controller\DisplayController.php 
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\*
+clear
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\*
+git status
+git add -p src\Stub\Bundle\TestBundle\DataFixtures\ORM\LoadDataTest.php 
+git status
+git add -p src\Stub\Bundle\TestBundle\Entity\Event.php
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\*
+git status
+git add -p src\Stub\Bundle\TestBundle\Entity\Item.php src\Stub\Bundle\TestBundle\Entity\ItemRepository.php 
+git add src\Stub\Bundle\TestBundle\Entity\Item.php src\Stub\Bundle\TestBundle\Entity\ItemRepository.php 
+git status
+git commit -m "Override entities + scheduller draggable action"
+git push origin feature-25-150
+php app\console doctrine:generate:entities StubTestBundle:Item
+git pull
+git checkout dev
+git reset --hard
+git checkout dev
+git pull
+git branch -D feature-25-150
+git branch feature-25-152
+git checkout feature-25-152
+php app\console doctrine:generate:entities StubTestBundle:Item
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig src\Stub\Bundle\TestBundle\Entity\Item.php
+git commit -m "Correct mistake in item entity declaration + remove js var in index template"
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+grunt
+grunt wech
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-s
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+wheris git
+whereis git
+where git
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+php app\console container:debug
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php src\Oxand\Bundle\SchedulerBundle\DataManager\ src\Oxand\Bundle\SchedulerBundle\Resources\*
+y
+git status
+git add -p src\Stub\Bundle\TestBundle\Entity\EventRepository.php 
+y
+git status
+git commit -m "Add Remove parent Event"
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataActionManager.php 
+git commit -m "remove useless comments in DataActionManager service"
+git push origin feature-25-152
+grunt
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php  src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php  src\Oxand\Bundle\SchedulerBundle\Resources\* src\Stub\Bundle\TestBundle\Entity\ItemRepository.php 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig  src\Stub\Bundle\TestBundle\Entity\EventRepository.php 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\* src\Oxand\Bundle\SchedulerBundle\Resources\config\services.yml 
+git commit -m "Correct mistake on services declarations"
+git push origin feautre-25-152
+git commit -m "Correct mistake on services declarations"
+git push origin feature-25-152
+git checkout dev
+git pull
+git checkout -b feature-88
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+git commit -m "Disable lightbox"
+git push origin feature-88
+git checkout dev
+git pull
+git branch -D feature-88
+git status
+git checkout -b feature-debug-feature-23
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Default\index.html.twig 
+git commit -m "feature-debug-feature-23"
+git push origin feature-debug-feature-23
+git checkout dev
+git pull
+git branch -D feature-debug-feature-23
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+php app\console doctrine:drop:database
+php app\console doctrine:database:
+php app\console doctrine:database:drop --env=test
+php app\console doctrine:database:drop --env=test --force
+php app\console doctrine:database:create --env=test
+php app\console doctrine:schema:update --env=test
+php app\console doctrine:schema:update --env=test --force
+php app\console doctrine:fixtures:load --env=test
+ssh \\ox-fr-px-dev01@root
+ssh ox-fr-px-dev01@root
+ssh http://ox-fr-px-dev01@root
+ssh root@//ox-fr-px-dev01
+ssh root@http://ox-fr-px-dev01
+ssh root@ox-fr-px-dev01
+phpcbf
+curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
+phpcbf
+pear install PHP_CodeSniffer
+phpcbf
+phpcbf --help
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+composer update
+php
+phpcsf
+phpspec
+cd /
+phpspec
+php --help
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+phpcbf
+cd src\Oxand\
+phpcbf
+cd Bundle\SchedulerBundle\Controller\
+phpcbf DisplayController.php 
+git reset --hard
+git pull
+cleaer
+clear
+tail
+git checkout -b feature-98-213
+ls
+cd ..\Model\
+phpcbf ItemInterface.php 
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+ant
+composer update
+composer self-update
+grunt
+npm install -g grunt-cli
+grunt
+npm install
+npm update
+grunt
+ant
+composer
+ant dev
+git status
+git branch -D feature-98-123
+git branch --list
+git branch -D feature-98-213
+ant dev
+git checkout -b feature-98-217
+ant dev
+ant test
+ant dev
+phpunit
+phpunit coverage-html
+phpunit vendor\phpunit\
+php bin\phpunit coverage-html
+php bin\phpunit
+bin\phpunit
+bin\phpunit coverage-html
+vendor\phpunit\phpunit
+vendor\phpunit\phpunit\phpunit
+bin\phpunit
+phpunit app\build\coverage-html
+phpunit -c app
+ant dev
+phpunit -c app
+ant dev
+phpunit -c app
+ant dev
+phpunit -c app
+ant dev
+phpunit -c app
+ant dev
+phpunit -c app
+php app\console doctrine:fixtures:load --env=dev
+ant dev
+php app\console doctrine:fixtures:load --env=test
+ant dev
+php app\console doctrine:fixtures:load --env=test
+ant dev
+php app\console doctrine:fixtures:load --env=test
+phpunit -c app
+php app\console doctrine:fixtures:load --env=test
+ant dev
+php app\console doctrine:fixtures:load --env=test
+ant dev
+phpunit -c app
+ant dev
+phpunit -c app
+git status
+git diff
+q
+git status
+phpcbf src\Stub\Bundle\TestBundle\Tests\Controller\MainControllerTest.php 
+phpcbf src\Stub\Bundle\TestBundle\Tests\Controller\TestKernel.php 
+phpcbf src\Stub\Bundle\TestBundle\Tests\Services\DataProviderTest.php 
+git status
+git add - src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php 
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php 
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git status
+git add -p src\Stub\Bundle\TestBundle\DataFixtures\ORM\LoadDataTest.php 
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\Controller\*
+ygit status
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\Services\DataProviderTest.php 
+git commit -m "Add tests"
+git push origin feature-98-217+
+git push origin feature-98-217
+phpunit -c app
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\Services\DataProviderTest.php 
+git commit -m "Replace _em declaration by entityManager"
+git push origin feature-98-217
+git checkout dev
+git pull
+git checkout -b feature-jenkins-optimize
+phpunit -c app
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\*
+git status
+git add -p src\Stub\Bundle\TestBundle\Tests\Services\DataProviderTest.php 
+git commit -m "Correct mistakes alerted by jenkins"
+git push origin feature-jenkins-optimize
+git checkout dev
+git branch -D feature-jenkins-optimize
+git pull
+git branch -list
+git branch --list
+git branch -D feature-98-217
+composer update
+cd ..\sandbox\
+cd ..\value-simulator\
+git status
+git pull
+git status
+composer update
+app\console cache:clear
+php app\console cache:clear
+exit
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\value-simulator\
+composer update
+git checkout -b feature-101-242-update-project
+composer update
+php app\console asserts:install
+php app\console assets:install
+composer update
+git status
+git add -p app\*
+y
+git commit -m "Update composants and configure data_visualization & scheduler module"
+composer update
+bower install
+npm update -g bower
+grunt
+npm install -g grunt-cli
+grunt init
+grunt --help
+npm update
+npm install
+grunt
+npm install
+grunt
+npm install -g bower
+bower
+npm install -g bower
+bower init
+bower
+grunt
+bower update
+bower install
+grunt update
+grunt
+bower
+bower update
+grunt
+git status
+git add -p .gitignore 
+git add -p Gruntfile.js 
+git status
+git add -p app\*
+git status
+git add -p composer.json 
+git status
+git add bower.json
+git status
+git add -p .gitignore 
+git status
+git add -p app\config\routing_dev.yml 
+git commit -m "Remove until bundles & add bower + grunt installation + configurations"
+git push origin feature-101-242-update-project
+php app\console cache:clear
+php app\console router:debug
+git status
+git add -p app\*
+git commit -m "Correct bug with main routing"
+php app\console router:debug
+git push origin feature-101-242-update-project
+git checkout dev
+git pull
+cd ../
+git clone git@gitlab.oxand.info:simeo2/factory.git
+cd factory\
+composer update
+composer install
+grunt
+composer update
+grunt
+php app\console doctrine:database:create
+php app\console doctrine:database:dump
+php app\console doctrine:database:drop
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+cd ../
+git clone git@gitlab.oxand.info:simeo2/sandbox.git
+cd sandbox\
+composer install
+composer init
+git pull
+composer update
+composer init
+cd ..\factory\
+php app\console doctrine:fixtures-load
+php app\console doctrine:fixtures:load --append
+cd ..\sandbox\
+composer install
+cd ..\module-scheduler\
+git pull
+git checkout -b feature-101-255-add-specifications-for-components
+composer update
+cd ..\sandbox\
+composer update
+composer update oxand/module-scheduler
+composer install
+composer update
+bower update
+grunt
+php app\console container:debug
+php app\console router:debug
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\sandbox\
+php app\console doctrine:generates:entities OxandSandboxBundle:Oxaction
+php app\console doctrine:generate:entities OxandSandboxBundle:Oxaction
+php app\console doctrine:generate:entities OxandBusinessBundle:Oxaction
+php app\console doctrine:generate:entities BusinessBundle:Oxaction
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --forc
+php app\console doctrine:generate:entities BusinessBundle:Oxaction
+php app\console doctrine:generate:entities  Oxand/Bundle/BusinessBundle/Resources/config/doctrine/OxAction
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path=Oxand\Bundle\BusinessBundle\Entity\"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="Oxand\Bundle\BusinessBundle\Entity\Oxscenario"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="Oxand\Bundle\BusinessBundle\Entity"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path=Oxand\Bundle\BusinessBundle\Entity
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path=Oxand\Bundle\BusinessBundle\Entity"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="Oxand\Bundle\BusinessBundle\Entity" --no-backup
+php app\console doctrine:generate:entity Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="Oxand\Bundle\BusinessBundle\Entity" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="Oxand\Bundle\BusinessBundle\Entity" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxaction --path="Oxand\Bundle\BusinessBundle\Entity" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxaction --path="src/Oxand\Bundle\BusinessBundle\Entity" --no-backup
+cd src\Oxand\Bundle\BusinessBundle\Entity\
+ls
+cd Oxand\Bundle\BusinessBundle\Entity\
+phpcbf Oxaction.php 
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\sandbox\
+php app\console doctrine:schema:update --force
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="" --no-backup/
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="/" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="src\Oxand\Bundle\BusinessBundle\" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="src\Oxand\Bundle\BusinessBundle\Entity\" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="src\Oxand\Bundle\BusinessBundle\Entity\Event" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="Event" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="src\Oxand\Bundle\BusinessBundle\Entity" --no-backup
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxevent --path="src" --no-backup
+php app\console doctrine:schema:update --force
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxcalendar --path="src" --no-backup
+php app\console doctrine:schema:update --force
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="src" --no-backup
+php app\console doctrine:schema:update --force
+php app\console doctrine:database:drop
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+git branch --list
+git checkout feature-101-add-eventGroup
+git checkout dev
+git checkout -b feature-fix-entity-bug
+git status
+phpcbf src\Oxand\Bundle\SchedulerBundle\Entity\Event.php
+phpcbf src\Oxand\Bundle\SchedulerBundle\Entity\EventGroup.php
+git status
+rm *~
+cd src\Oxand\Bundle\SchedulerBundle\Entity\
+rm *~
+git status
+rm ../../../../Stub/Bundle/TestBundle/Entity/Event.php~
+git status
+rm ../../../../Stub/Bundle/TestBundle/Entity/Item.php~
+git status
+gi add - Event.php 
+git add -p Event.php 
+git add -p EventGr
+git add -p EventGroup.php 
+git status
+git add ../../../../Stub/Bundle/TestBundle/Entity/Event.php~
+git status
+git add --all
+git status
+cd ../../../../
+git rm Stub\Bundle\TestBundle\Entity\Event.php~
+git status
+git commit -m "remove aliases + fix bug issu to entities"
+git push origin feature-feature-fix-entity-bug
+git push origin feature-fix-entity-bug
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\module-scheduler\
+php app\console doctrine:fixtures:load
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\factory\
+git pull
+ll
+ls -l
+git status
+git checkout composer.lock
+git pull
+cd ..\module-scheduler\
+composer update
+grunt
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base .
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . dev
+npm install
+vi package.json 
+npm install
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . dev
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . watch
+rm web\built\*
+rm web\built\gantt.min.css 
+rm web\built\gantt.min.js 
+rm -f web\built\*
+ls web\built\
+cd web\built\
+ll
+ls
+rm override_gantt.min.js  simeo.min.css  simeo.min.js  vendor.min.css  vendor.min.js
+ls
+cd ..
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . dev
+ls web\built\
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . dev
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . 
+grunt --gruntfile vendor\oxand\core\Gruntfile.js --base . dev
+php app\console doctrine:fixtures:load
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load
+git status
+git add -p app\config\config grunt.json  package.json 
+git status
+phpcbf src\Oxand\Bundle\SchedulerBundle\Controller\DisplayController.php 
+phpcbf src\Oxand\Bundle\SchedulerBundle\Controller\MainController.php 
+phpcbf src\Oxand\Bundle\SchedulerBundle\DataManager\DataActionManager.php 
+phpcbf src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git status
+git add -p app\config\config
+git add -p app\config\config.yml 
+git add -p src\Oxand\Bundle\SchedulerBundle\Controller\*
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DependencyInjection\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\
+git status 
+git add -p src\Stub\Bundle\TestBundle\DataFixtures\ORM\LoadDataTest.php 
+git status 
+git add -p src\Stub\Bundle\TestBundle\Entity\Item.php src\Stub\Bundle\TestBundle\Entity\Scenario.php 
+clear
+git commit -m "Add new grunt configuration + Update dataProvider to work with new mcd"
+git push origin feature-101-add-eventGroup
+php app\console doctrine:generate:entities Oxand\Bundle\SchedulerBundle\Entity\EventGroup --path "src/"
+php app\console doctrine:generate:entities Oxand\Bundle\SchedulerBundle\Entity\Event --path "src/"
+php app\console doctrine:generate:entities Oxand\Bundle\SchedulerBundle\Entity\EventGroup --path "src/"
+php app\console doctrine:generate:entities Oxand\Bundle\SchedulerBundle\Entity\Event --path "src/"
+php app\console doctrine:fixtures:load
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DependencyInjection\
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Entity\Event.php src\Oxand\Bundle\SchedulerBundle\Entity\EventGroup.php
+php cbf /src/Oxand/Bundle/SchedulerBundle/Entity/Event.php
+phpcbf src/Oxand/Bundle/SchedulerBundle/Entity/Event.php
+phpcbf src\Oxand\Bundle\SchedulerBundle\Entity\EventGroup.php
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Entity\Event.php src\Oxand\Bundle\SchedulerBundle\Entity\EventGroup.php
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\config\services.yml 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Resources\views\Elements\flap_board.html.twig 
+git status
+git add src\Stub\Bundle\TestBundle\Entity\Scenario.php 
+y
+git status
+git commit -m "Add scenario entity + Correct mistake due to refactof for dataActionManager service"
+git push origin feature-101-add-eventGroup
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\DataManager\DataProvider.php 
+git status
+git add -p src\Oxand\Bundle\SchedulerBundle\Model\CalendarInterface.php 
+git status
+git commit -m "Correct mistake releved by Charles"
+git push origin feature-101-add-eventGroup
+git checkout dev
+git pull
+cd ..\sandbox\
+composer update
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Scenario --path="src/"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Calendar --path="src/"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\Oxscenario --path="src/"
+php app\console doctrine:generate:entities Oxand\Bundle\BusinessBundle\Entity\EventGroup --path="src/"
+php app\console doctrine:database:drop
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+composer update oxand/scheduler
+php app\console doctrine:schema:update --force
+composer update
+git pull
+
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:load
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:fixtures:loa
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+php app\console doctrine:schema:update --force
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+php app\console doctrine:schema:update --force
+php app\console doctrine:database:create
+php app\console doctrine:database:drop --force
+php app\console doctrine:database:create
+php app\console doctrine:schema:update --force
+php app\console doctrine:fixtures:loa
+grunt
+vendor\oxand\core\Gruntfile.js .
+vendor\oxand\core\grunt.json 
+vendor\oxand\core\src\Oxand\Bundle\CoreBundle\Script\GruntBowerSetup.php 
+vendor\oxand\core\grunt .
+grunt vendor\oxand\core .
+grunt vendor\oxand\core\ .
+grunt vendor\oxand\core\
+vendor\oxand\core\grunt dev
+vendor\oxand\core grunt dev
+npm vendor\oxand\core grunt dev
+bower
+grunt -gruntfile vendor\oxand\core\Gruntfile.js -base . dev
+git status
+php app\console doctrine:fixtures:load 
+git status
+cd \EasyPHP-DevServer-14.1VC11\data\localweb\projects\value-simulator\
+git pull
+git status
+git diff
+wheris cmder
+where
+where cmder
+cd \Cmder\config\
+more aliases 
+vim
+vim aliases 
+l
+cat > .bashrc
+exit
+l
+cd \Cmder\config\
+vim aliases 
+gu
+gp
+clear
+localhost
+project
+localhost
+vim aliases 
+cd \Cmder\config\
+vim aliases 
+lch
+gp
+cd value-simulator\
+gp
+gpl
+cd \Cmder\config\
+vim aliases 
+lch
+cd value-simulator\
+gpl
+cd \Cmder\config\
+cd value-simulator\
+vim aliases 
+exit
