@@ -29,4 +29,4 @@ Commands list
 * cmp-u=composer update
 * cmp-i=composer install
 * cmp-su=composer self-update
-* cmp-cc=composer cache:clear
+* cmp-cc=composer clear-cache
